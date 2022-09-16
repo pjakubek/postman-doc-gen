@@ -1341,7 +1341,7 @@ pre {
   .table td {
     padding: 0.75rem;
     vertical-align: top;
-    border-top: 1px solid #dee2e6; }
+    border-top: 1px solid #333; }
   .table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6; }
@@ -7937,7 +7937,7 @@ button.bg-dark:focus {
 .font-italic {
   font-style: italic !important; }
 
-.text-white {
+.text-sidebar {
   color: #fff !important; }
 
 .text-primary {
@@ -8188,7 +8188,7 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-flex-align: center;
   align-items: center;
   height: 55px;
-  background-color: #007AFC; }
+  background-color: #333; }
 
 .sidebar-wrapper .sidebar-header {
   padding: 20px;
@@ -8726,5 +8726,3 @@ code.language-yaml {
 .alert {
   padding: 1.3rem !important;
   margin-bottom: 2rem; }
-
-

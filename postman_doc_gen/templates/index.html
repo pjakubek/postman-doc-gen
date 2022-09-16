@@ -43,7 +43,7 @@
         <nav id="sidebar" class="sidebar-wrapper">
             <div class="sidebar-content">
                 <!-- sidebar-brand  -->
-                <div class="sidebar-item sidebar-brand text-white font-weight-bold">API Documentation</div>
+                <div class="sidebar-item sidebar-brand text-sidebar font-weight-bold">API Documentation</div>
                 <!-- sidebar-header  -->
                 <!-- sidebar-menu  -->
                 <div class=" sidebar-item sidebar-menu">
@@ -266,6 +266,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/agate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
     <script>
+        hljs.unregisterLanguage("apache")
         document.querySelectorAll('code.is-highlighted').forEach(el => {
         hljs.highlightAll(el);
         });

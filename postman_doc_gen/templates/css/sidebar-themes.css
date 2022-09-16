@@ -69,7 +69,9 @@
 .light-theme.sidebar-bg .sidebar-wrapper a:not(.dropdown-item):hover,
 .light-theme.sidebar-bg .sidebar-wrapper .sidebar-menu li.active > a {
   color: #5c5c5c; }
-
+  .light-theme.sidebar-bg .sidebar-wrapper li:not(.dropdown-item):hover,
+  .light-theme.sidebar-bg .sidebar-wrapper .sidebar-menu li.active > a {
+    color: #5c5c5c; }
 .light-theme.sidebar-bg .sidebar-wrapper .sidebar-item {
   border-color: white; }
 
